@@ -1,0 +1,573 @@
+fileFormatVersion: 2
+guid: c96fba1b3fdca594cbe0997a352aee8c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Download89932_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1166
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89755153d1270334a982443f9ab3cf9f
+      internalID: 1918518806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download89932_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1166
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba6fb823d675844ba8b21ee2a041500
+      internalID: 1526775637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download89932_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1165
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25761af9a8b67c2498045d630e9bc21c
+      internalID: -382669067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download89932_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1164
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac480423fae54954daf95873bcf0d5c2
+      internalID: 2029595107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download89932_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 588
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35774880cc2fa234ba89a2ab4b928c5d
+      internalID: 1380054960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download89932_9
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 587
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0662d3a44dd26e4d9287c7b5d259093
+      internalID: 470356514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download89932_10
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 587
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b91bb040ece154a891c93141ee8f04
+      internalID: -1542314356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download89932_11
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 588
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e17b769e281182429fa2722c148cd92
+      internalID: 536162007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download89932_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1100
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f324df09734c74744a7c04b0fb8d22bd
+      internalID: 1300777978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download89932_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1100
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760f06d20cc8767449d14a8b38095fdd
+      internalID: 1858620843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download89932_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1100
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfff0ddd67398945898e13f228f9c64
+      internalID: 783609278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download89932_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1099
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471a01624ef477444a21a561d405f673
+      internalID: -739464212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Download89932_0: 1918518806
+      Download89932_1: 1526775637
+      Download89932_10: -1542314356
+      Download89932_100: 959201863
+      Download89932_101: 199242622
+      Download89932_102: -444774208
+      Download89932_103: -773235475
+      Download89932_104: 1584483037
+      Download89932_105: -678082722
+      Download89932_106: 90030001
+      Download89932_107: -514875195
+      Download89932_108: 1956204790
+      Download89932_109: 1430308310
+      Download89932_11: 536162007
+      Download89932_110: -1364264526
+      Download89932_111: -703055219
+      Download89932_112: -1549885771
+      Download89932_113: 1042830472
+      Download89932_114: -1876840834
+      Download89932_115: -1635130520
+      Download89932_116: 1654187356
+      Download89932_117: 807971355
+      Download89932_118: -1788856474
+      Download89932_119: -829395375
+      Download89932_12: 498607795
+      Download89932_120: 1636247165
+      Download89932_121: -971367319
+      Download89932_122: -256320055
+      Download89932_123: 612776318
+      Download89932_124: 258762778
+      Download89932_125: 1145317169
+      Download89932_126: 1744965511
+      Download89932_127: -669375219
+      Download89932_128: -452926689
+      Download89932_129: 147625273
+      Download89932_13: 2132022277
+      Download89932_130: 874527487
+      Download89932_131: 130666076
+      Download89932_132: -1805886921
+      Download89932_133: -1819324437
+      Download89932_134: -1066242411
+      Download89932_135: -1299628271
+      Download89932_136: 2022389778
+      Download89932_137: -1386792736
+      Download89932_138: -778308503
+      Download89932_139: 1608491322
+      Download89932_14: -1467337621
+      Download89932_140: 1621869057
+      Download89932_141: -766223604
+      Download89932_142: 244247256
+      Download89932_143: 79131265
+      Download89932_144: -894858052
+      Download89932_145: 1849302621
+      Download89932_146: -1416032477
+      Download89932_147: -2058589624
+      Download89932_148: 257860058
+      Download89932_149: -1793909714
+      Download89932_15: 142977380
+      Download89932_150: 961250815
+      Download89932_151: -635991733
+      Download89932_152: 1716137955
+      Download89932_153: -804808266
+      Download89932_154: 954459239
+      Download89932_155: -127844055
+      Download89932_156: -581458544
+      Download89932_157: -145143310
+      Download89932_158: 2075625399
+      Download89932_159: 1969924103
+      Download89932_16: -1248366109
+      Download89932_160: 109557765
+      Download89932_161: 989294748
+      Download89932_162: -676223754
+      Download89932_163: -891421444
+      Download89932_164: -1193385731
+      Download89932_165: 1768874384
+      Download89932_166: -236658682
+      Download89932_167: -146289588
+      Download89932_168: 530602298
+      Download89932_169: -728618676
+      Download89932_17: 1498413173
+      Download89932_170: -1592903939
+      Download89932_171: -1477520528
+      Download89932_172: -1599875848
+      Download89932_173: -50336127
+      Download89932_174: -275267255
+      Download89932_175: -1110223072
+      Download89932_176: -1110484311
+      Download89932_177: 2147365406
+      Download89932_178: -1443097718
+      Download89932_179: -637360122
+      Download89932_18: -592320283
+      Download89932_180: -1353208554
+      Download89932_181: 1497349121
+      Download89932_182: -1069771706
+      Download89932_183: 1460965924
+      Download89932_184: 826109714
+      Download89932_185: 579579752
+      Download89932_19: -1456619283
+      Download89932_2: -382669067
+      Download89932_20: 1399619857
+      Download89932_21: -1742027150
+      Download89932_22: 510689395
+      Download89932_23: 2107615243
+      Download89932_24: 726925998
+      Download89932_25: 125767215
+      Download89932_26: -905296501
+      Download89932_27: 1727670696
+      Download89932_28: 824000693
+      Download89932_29: 499375794
+      Download89932_3: 2029595107
+      Download89932_30: -1565074255
+      Download89932_31: -18459021
+      Download89932_32: -963452684
+      Download89932_33: -2033229046
+      Download89932_34: 1761811195
+      Download89932_35: 959702838
+      Download89932_36: -1873192593
+      Download89932_37: -1790719820
+      Download89932_38: 1020677716
+      Download89932_39: 795597630
+      Download89932_4: 1300777978
+      Download89932_40: 981758296
+      Download89932_41: -831784770
+      Download89932_42: -1825076435
+      Download89932_43: -454693075
+      Download89932_44: -1676437081
+      Download89932_45: 121285530
+      Download89932_46: -616940472
+      Download89932_47: 155487851
+      Download89932_48: 1068148410
+      Download89932_49: -579349304
+      Download89932_5: 1858620843
+      Download89932_50: -1152421457
+      Download89932_51: 1740562235
+      Download89932_52: -2045484119
+      Download89932_53: 322615229
+      Download89932_54: -1335298540
+      Download89932_55: -1371319203
+      Download89932_56: -816184664
+      Download89932_57: 719783389
+      Download89932_58: -982993748
+      Download89932_59: -1715114959
+      Download89932_6: 783609278
+      Download89932_60: -695541386
+      Download89932_61: 253923499
+      Download89932_62: 1947528125
+      Download89932_63: 1659483792
+      Download89932_64: 1952736210
+      Download89932_65: 673271378
+      Download89932_66: 617126156
+      Download89932_67: -1667265682
+      Download89932_68: -261712557
+      Download89932_69: -1324792905
+      Download89932_7: -739464212
+      Download89932_70: -1471508980
+      Download89932_71: 1449173968
+      Download89932_72: -700200412
+      Download89932_73: -552390918
+      Download89932_74: -1645080787
+      Download89932_75: -2115875325
+      Download89932_76: 373058543
+      Download89932_77: -437977499
+      Download89932_78: 415082934
+      Download89932_79: -1347756777
+      Download89932_8: 1380054960
+      Download89932_80: -1889760088
+      Download89932_81: 1775356909
+      Download89932_82: -1594719291
+      Download89932_83: -151890535
+      Download89932_84: -1312833620
+      Download89932_85: -338865614
+      Download89932_86: 1157795737
+      Download89932_87: -1427997378
+      Download89932_88: 36767074
+      Download89932_89: -779311411
+      Download89932_9: 470356514
+      Download89932_90: 2120636854
+      Download89932_91: -768116151
+      Download89932_92: -781925847
+      Download89932_93: -847108147
+      Download89932_94: 476576463
+      Download89932_95: 2141572908
+      Download89932_96: -1377225694
+      Download89932_97: -1600174885
+      Download89932_98: 1540542136
+      Download89932_99: 1121818335
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
