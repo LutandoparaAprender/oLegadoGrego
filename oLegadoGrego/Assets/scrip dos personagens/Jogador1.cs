@@ -48,11 +48,11 @@ public class Jogador1 : MonoBehaviour
             float velocidadeX = Mathf.Abs(this.rb.velocity.x);
             if (velocidadeX > 0)
             {
-     //        this.playerAnimator.SetBool("walk", true);
+             this.playerAnimator.SetBool("walk", true);
             }
             else
             {
-     //             playerAnimator.SetBool("walk", false);
+                  playerAnimator.SetBool("walk", false);
             }
 
             if (Input.GetKeyDown(KeyCode.Space) && isGround)
@@ -62,7 +62,7 @@ public class Jogador1 : MonoBehaviour
             }
 
             // Atualiza o parâmetro de pulo no Animator com base no jogador
-     //       playerAnimator.SetBool("jump", !isGround);
+             playerAnimator.SetBool("jump", !isGround);
 
             if (Input.GetButtonDown("Fire1") && rb.velocity == Vector2.zero)
             {

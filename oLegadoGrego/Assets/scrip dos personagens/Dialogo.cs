@@ -29,15 +29,19 @@ public class Dialogo : MonoBehaviour
     {
         if(Input.GetButtonDown("Fire1") && readyToSpeak)
         {
-            if (!startDialogue)
-            {
-                FindObjectOfType<Jogador1>().velocidadedeMovimento= 0f;
-                StartDialogue();
-            }
-            else if (dialogueText.text == dialogueNpc[dialogueIndex])
-            {
-                NextDialogue();
-            }
+            
+        }
+    }
+    private void OnMouseDown()
+    {
+        if (!startDialogue)
+        {
+            FindObjectOfType<Jogador1>().velocidadedeMovimento = 0f;
+            StartDialogue();
+        }
+        else if (dialogueText.text == dialogueNpc[dialogueIndex])
+        {
+            NextDialogue();
         }
     }
     void NextDialogue()
