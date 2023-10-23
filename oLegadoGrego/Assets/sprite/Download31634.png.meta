@@ -305,6 +305,132 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: t
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 30
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591589e0569f15d488e2afe2467f898a
+      internalID: 1942885912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download31634_3
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 30
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fd0b5c1763d634cb6ca34051783a1a
+      internalID: 1387123152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download31634_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 29
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad81b7f4af821d41a5104cf8110a708
+      internalID: -1022708539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download31634_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 29
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc82968e61b605647abd18561fd15e51
+      internalID: 678709067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download31634_9
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 28
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e864aba9dfa505b46878a888d536c695
+      internalID: 1117149544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download31634_10
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 28
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436ca85ed18cbb040a525b2dbd199d0f
+      internalID: -1286200870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -319,12 +445,18 @@ TextureImporter:
       Download31634_: 421755437
       Download31634_0: 1756241387
       Download31634_1: 484686345
+      Download31634_10: 678709067
       Download31634_2: -421574178
+      Download31634_3: 1942885912
+      Download31634_4: 1100270605
       Download31634_44: -439508292
       Download31634_5: -1629914228
       Download31634_55: 361511771
       Download31634_6: 1635803777
+      Download31634_7: 1387123152
       Download31634_8: 1867175818
+      Download31634_9: -1022708539
+      t: 1942885912
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

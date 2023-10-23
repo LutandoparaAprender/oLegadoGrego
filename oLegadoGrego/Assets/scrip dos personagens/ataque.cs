@@ -2,27 +2,50 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ataque : MonoBehaviour
+public class Ataque: MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        //deativar gameobject da arma
-    }
+    public Rigidbody2D rb;
+    public Transform attackPoint;
+    public float attackRange = 0;
+    public LayerMask enemyLayers;
+    public int attackDamage = 40;
+    public Animator playerAnimator;
+    private bool isAttacking = false;
+    public float attackCooldown = 0.9f; // Tempo entre os ataques
+    private float nextAttackTime = 0.0f;
 
-    // Update is called once per frame
     void Update()
     {
-        //aperta tecla de atack
-        //ativar gameobject da arma
-        //aguarda atk acabar
-        
-        
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("tagDoInimigo")) {
-            //dar dano no inimigo
+        if (Time.time >= nextAttackTime)
+        {
+            if (Input.GetButtonDown("Fire1"))
+            {
+                isAttacking = true;
+                playerAnimator.SetBool("ataque", true);
+                nextAttackTime = Time.time + attackCooldown; // Define o próximo tempo de ataque
+            }
         }
+        else
+        {
+            isAttacking = false;
+            playerAnimator.SetBool("ataque", false);
+        }
+
+        if (isAttacking)
+        {
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+            foreach (Collider2D enemy in hitEnemies)
+            {
+                enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+            }
+        }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null || !isAttacking)
+            return;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }

@@ -12,9 +12,6 @@ public class Jogador1 : MonoBehaviour
     public Transform foot;
     public LayerMask ground;
 
-    public Transform attackCheck;
-    public LayerMask LayerEnemy;
-
     public Animator playerAnimator; // Adicionei essa referência ao Animator
 
     public bool IsGround
@@ -60,14 +57,9 @@ public class Jogador1 : MonoBehaviour
                 Vector2 forca = new Vector2(0, this.forcapulo);
                 this.rb.AddForce(forca, ForceMode2D.Impulse);
             }
-
             // Atualiza o parâmetro de pulo no Animator com base no jogador
              playerAnimator.SetBool("jump", !isGround);
 
-            if (Input.GetButtonDown("Fire1") && rb.velocity == Vector2.zero)
-            {
-                playerAnimator.SetTrigger("ataque");
-            }
         }
     }
 }

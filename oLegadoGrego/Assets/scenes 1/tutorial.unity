@@ -208,8 +208,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -296,7 +296,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.39537922, y: 0.071}
   m_AnchorMax: {x: 0.58481586, y: 0.2703217}
-  m_AnchoredPosition: {x: -3.6336975, y: -24.827995}
+  m_AnchoredPosition: {x: -3.633728, y: -24.828003}
   m_SizeDelta: {x: -7.2675, y: -12.301}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &270799660
@@ -525,11 +525,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -548,7 +548,7 @@ Canvas:
   m_RenderMode: 1
   m_Camera: {fileID: 571899564}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -613,8 +613,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -156.24, y: -12.500015}
-  m_SizeDelta: {x: 362.516, y: 234.167}
+  m_AnchoredPosition: {x: -580.33, y: -17}
+  m_SizeDelta: {x: 758.91, y: 425.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &711771469
 MonoBehaviour:
@@ -638,11 +638,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: a4d05a2c73ae07e439907d778feccfdf, type: 3}
-    m_FontSize: 32
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 70
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -701,7 +701,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0067749023, y: 0.00021362305}
+  m_AnchoredPosition: {x: -0.0068359375, y: 0.00024414062}
   m_SizeDelta: {x: -0.013489, y: 0.00030518}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &887251532
@@ -724,7 +724,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -786,7 +786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23a7c49082dd46a4e9879990578b85ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nomedolevel: jogo
+  nomedolevel: mapa principal
   painelcredi: {fileID: 887251530}
   painelmenu: {fileID: 0}
 --- !u!1 &1793062887
@@ -824,8 +824,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 197, y: -12.5}
-  m_SizeDelta: {x: 364.759, y: 234.167}
+  m_AnchoredPosition: {x: 498.97, y: -31}
+  m_SizeDelta: {x: 922.038, y: 453.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1793062889
 MonoBehaviour:
@@ -849,11 +849,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: a4d05a2c73ae07e439907d778feccfdf, type: 3}
-    m_FontSize: 32
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 100
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -976,8 +976,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.556, y: 170}
-  m_SizeDelta: {x: 236.16, y: 65.893}
+  m_AnchoredPosition: {x: 21, y: 380}
+  m_SizeDelta: {x: 1266.733, y: 1039.107}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2071264795
 MonoBehaviour:
@@ -1001,26 +1001,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: a4d05a2c73ae07e439907d778feccfdf, type: 3}
-    m_FontSize: 43
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 43
+    m_MinSize: 0
+    m_MaxSize: 100
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Tutorial
-
-
-
-    botao esquerda: ataca
-
-
-
-    E: interacao'
+  m_Text: Tutorial
 --- !u!222 &2071264796
 CanvasRenderer:
   m_ObjectHideFlags: 0
