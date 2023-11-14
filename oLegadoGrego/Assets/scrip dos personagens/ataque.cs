@@ -16,11 +16,12 @@ public class Ataque: MonoBehaviour
 
     void Update()
     {
+
         if (Time.time >= nextAttackTime)
         {
             if (Input.GetButtonDown("Fire1"))
             {
-                isAttacking = true;
+                  isAttacking = true;
                 playerAnimator.SetBool("ataque", true);
                 nextAttackTime = Time.time + attackCooldown; // Define o próximo tempo de ataque
             }
@@ -40,9 +41,10 @@ public class Ataque: MonoBehaviour
                 enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
             }
         }
-    }
 
-    void OnDrawGizmosSelected()
+    }
+     
+    private void OnDrawGizmos()
     {
         if (attackPoint == null || !isAttacking)
             return;

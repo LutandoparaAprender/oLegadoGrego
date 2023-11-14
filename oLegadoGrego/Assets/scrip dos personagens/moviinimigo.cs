@@ -31,7 +31,7 @@ public class moviinimigo : MonoBehaviour
                 // Mova o inimigo na direção do jogador
                 transform.position += direction * moveSpeed * Time.deltaTime;
 
-                animator.SetBool("walk", distanceToTarget <= maxChaseDistance);
+                animator.SetBool("animacao walk", distanceToTarget <= maxChaseDistance);
 
                 // Flip o sprite se necessário
                 if (direction.x < 0) // Verifica se está se movendo para a esquerda

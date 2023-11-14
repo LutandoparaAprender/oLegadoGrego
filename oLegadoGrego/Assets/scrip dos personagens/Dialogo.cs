@@ -36,7 +36,8 @@ public class Dialogo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1") && readyToSpeak)
+
+        if (Input.GetButtonDown("Fire3") && readyToSpeak)
         {
             if (skipDialogue)
             {
@@ -119,7 +120,7 @@ public class Dialogo : MonoBehaviour
         }
     }
 
-    // Método para pular o diálogo quando o botão for clicado
+    // Método para pular o diálogo quando o botão for clicadota 
     void SkipDialogue()
     {
         if (startDialogue)

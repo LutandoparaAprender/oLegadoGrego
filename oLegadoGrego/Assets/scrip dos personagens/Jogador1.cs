@@ -11,9 +11,9 @@ public class Jogador1 : MonoBehaviour
     bool isGround;
     public Transform foot;
     public LayerMask ground;
-
     public Animator playerAnimator; // Adicionei essa referência ao Animator
-
+    public Enemy enemy;
+    public int maxhealth = 100;
     public bool IsGround
     {
         get { return isGround; }
@@ -33,13 +33,18 @@ public class Jogador1 : MonoBehaviour
 
         isGround = Physics2D.OverlapCircle(foot.position, 0.2f, ground);
 
+
         if (velocidade.x > 0)
         {
-            this.spriteRenderer.flipX = false;
+            Vector3 flip = new Vector3(1, 1,1);
+            transform.localScale = flip;
+            //this.spriteRenderer.flipX = false;
         }
         else if (velocidade.x < 0)
         {
-            this.spriteRenderer.flipX = true;
+            Vector3 flip = new Vector3(-1, 1,1);
+            transform.localScale = flip;
+            //this.spriteRenderer.flipX = true;
         }
         {
             float velocidadeX = Mathf.Abs(this.rb.velocity.x);
