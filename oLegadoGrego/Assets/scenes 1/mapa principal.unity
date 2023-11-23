@@ -3610,7 +3610,7 @@ GameObject:
   - component: {fileID: 204684821}
   m_Layer: 0
   m_Name: "Freider\xEDkos"
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6585,6 +6585,27 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 5991943194609097291, guid: ac067d7d3bd8a1c4a9fb05099b5a4e06, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ac067d7d3bd8a1c4a9fb05099b5a4e06, type: 3}
+--- !u!1 &462268280 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3987444881531595148, guid: af12c629001384f40811620493178016, type: 3}
+  m_PrefabInstance: {fileID: 1560282572}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &462268285
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462268280}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00406909, y: -0.26152468}
+  m_Size: {x: 1.5493522, y: 1.5493522}
+  m_Direction: 0
 --- !u!1 &464600717
 GameObject:
   m_ObjectHideFlags: 0
@@ -108139,6 +108160,91 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.03125, y: 0.34375}
   m_EdgeRadius: 0
+--- !u!1001 &1560282572
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3987444881531595136, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: nameNpc
+      value: 
+      objectReference: {fileID: 1902576728}
+    - target: {fileID: 3987444881531595136, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: imageNpc
+      value: 
+      objectReference: {fileID: 258365630}
+    - target: {fileID: 3987444881531595136, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: skipButton
+      value: 
+      objectReference: {fileID: 909758017}
+    - target: {fileID: 3987444881531595136, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 345438693}
+    - target: {fileID: 3987444881531595136, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: dialogueIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987444881531595136, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 2075978121}
+    - target: {fileID: 3987444881531595136, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: interactRange
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987444881531595148, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: m_Name
+      value: filosofo_15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987444881531595151, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987444881531595151, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 540.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987444881531595151, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 187.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987444881531595151, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987444881531595151, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987444881531595151, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987444881531595151, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987444881531595151, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00015542285
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987444881531595151, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987444881531595151, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987444881531595151, guid: af12c629001384f40811620493178016, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.018
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af12c629001384f40811620493178016, type: 3}
 --- !u!4 &1573784620 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7730023291812254614, guid: d4071901789ed384389951219d1e0315, type: 3}
@@ -115156,7 +115262,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2109688140
 MonoBehaviour:
   m_ObjectHideFlags: 0
