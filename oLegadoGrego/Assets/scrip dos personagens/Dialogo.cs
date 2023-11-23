@@ -30,7 +30,7 @@ public class Dialogo : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("interage") && readyToSpeak)
+        if (Input.GetKey("e") && readyToSpeak)
         {
             if (skipDialogue)
             {
@@ -38,7 +38,7 @@ public class Dialogo : MonoBehaviour
            }
       }
 
-        if (Input.GetButtonDown("interage") && readyToSpeak)
+        if (Input.GetKey("e") && readyToSpeak)
         {
             if (!startDialogue)
             {
@@ -55,24 +55,6 @@ public class Dialogo : MonoBehaviour
             }
         }
     }
-
-    private void OnMouseDown()
-    {
-        if (!startDialogue)
-        {
-            FindObjectOfType<Jogador1>().velocidadedeMovimento = 0f;
-            StartDialogue();
-        }
-        else if (dialogueText.text == dialogueNpc[dialogueIndex])
-        {
-            NextDialogue();
-        }
-        else
-        {
-            skipDialogue = true;
-        }
-    }
-
     void NextDialogue()
     {
         dialogueIndex++;
@@ -86,7 +68,7 @@ public class Dialogo : MonoBehaviour
             dialoguePanel.SetActive(false);
             startDialogue = false;
             dialogueIndex = 0;
-            FindObjectOfType<Jogador1>().velocidadedeMovimento = 10f;
+            FindObjectOfType<Jogador1>().velocidadedeMovimento = 0.1f;
             skipDialogue = false;
             skipButton.gameObject.SetActive(false);
         }
@@ -109,7 +91,7 @@ public class Dialogo : MonoBehaviour
         foreach (char letter in dialogueNpc[dialogueIndex])
         {
             dialogueText.text += letter;
-            yield return new WaitForSeconds(0.064f);
+            yield return new WaitForSeconds(0.01f);
         }
     }
 
