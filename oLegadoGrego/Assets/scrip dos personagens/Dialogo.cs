@@ -18,7 +18,7 @@ public class Dialogo : MonoBehaviour
     public bool startDialogue;
     public bool skipDialogue;
 
-    public float interactRange = 2f; // Defina o valor adequado para a sua cena
+    public float interactRange = 0; // Defina o valor adequado para a sua cena
     public Button skipButton;
 
     void Start()
@@ -30,17 +30,15 @@ public class Dialogo : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey("e") && readyToSpeak)
+      
+
+        if (Input.GetKeyDown("e") && readyToSpeak)
         {
             if (skipDialogue)
             {
-             NextDialogue();
-           }
-      }
-
-        if (Input.GetKey("e") && readyToSpeak)
-        {
-            if (!startDialogue)
+                NextDialogue();
+            }
+            else if (!startDialogue)
             {
                 FindObjectOfType<Jogador1>().velocidadedeMovimento = 0f;
                 StartDialogue();
@@ -68,10 +66,11 @@ public class Dialogo : MonoBehaviour
             dialoguePanel.SetActive(false);
             startDialogue = false;
             dialogueIndex = 0;
-            FindObjectOfType<Jogador1>().velocidadedeMovimento = 0.1f;
+            FindObjectOfType<Jogador1>().velocidadedeMovimento = 10f;
             skipDialogue = false;
             skipButton.gameObject.SetActive(false);
         }
+        
     }
 
     void StartDialogue()
