@@ -1,8 +1,9 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class Dialogo : MonoBehaviour
+public class Dialogo1 : MonoBehaviour
 {
     public string[] dialogueNpc;
     public int dialogueIndex;
@@ -21,6 +22,8 @@ public class Dialogo : MonoBehaviour
     public float interactRange = 0; // Defina o valor adequado para a sua cena
     public Button skipButton;
 
+    public puzzle transicaoCena; // Adicionado para referenciar o script de transição de cena
+
     void Start()
     {
         dialoguePanel.SetActive(false);
@@ -30,8 +33,6 @@ public class Dialogo : MonoBehaviour
 
     void Update()
     {
-      
-
         if (Input.GetKeyDown("e") && readyToSpeak)
         {
             if (skipDialogue)
@@ -53,6 +54,7 @@ public class Dialogo : MonoBehaviour
             }
         }
     }
+
     void NextDialogue()
     {
         dialogueIndex++;
@@ -66,8 +68,15 @@ public class Dialogo : MonoBehaviour
             // Verifica se o NPC atual é o último (Filosofo3 neste caso)
             if (nameNpc.text == "filosofo4")
             {
-                // Aciona o evento do quebra-cabeça
-                FindObjectOfType<puzzle>().janela();
+                // Carrega a cena do quebra-cabeça
+                if (transicaoCena != null)
+                {
+                    transicaoCena.cena();
+                }
+                else
+                {
+                    Debug.LogError("TransicaoCena não atribuído no Inspector!");
+                }
             }
             else
             {

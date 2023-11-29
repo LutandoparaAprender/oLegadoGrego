@@ -54,7 +54,7 @@ public class Jogador1 : MonoBehaviour
             }
             else
             {
-                  playerAnimator.SetBool("walk", false);
+                playerAnimator.SetBool("walk", false);
             }
 
             if (Input.GetKeyDown(KeyCode.Space) && isGround)

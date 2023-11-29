@@ -15,7 +15,7 @@ public class respawn : MonoBehaviour
     {
         // Define a posição inicial do personagem com os valores especificados
         checkpointPos = new Vector3(initialX, initialY, initialZ);
-        transform.position = checkpointPos;
+        //transform.position = checkpointPos;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

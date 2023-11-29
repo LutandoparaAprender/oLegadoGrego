@@ -88,9 +88,9 @@ GameObject:
   - component: {fileID: 7326670630329762962}
   - component: {fileID: 7326670630329762964}
   - component: {fileID: 7326670630329762965}
-  - component: {fileID: 7326670630329762966}
   - component: {fileID: 7326670630329762961}
   - component: {fileID: 4641824243983413412}
+  - component: {fileID: 2913803816914891751}
   m_Layer: 6
   m_Name: prefab inimigo
   m_TagString: inimigo
@@ -202,22 +202,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &7326670630329762966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7326670630329762968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2ceae80c9e2bf944a23bd6ae5df9ab6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  moveSpeed: 3
-  maxChaseDistance: 10
-  minChaseDistance: 2
 --- !u!95 &7326670630329762961
 Animator:
   serializedVersion: 5
@@ -255,6 +239,22 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.9375, y: 1.5312502}
   m_Direction: 0
+--- !u!114 &2913803816914891751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7326670630329762968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec27b9b799ef6c4e856a45452ccc881, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  moveSpeed: 5
+  attackRange: 1.3
+  attackRate: 2
 --- !u!1 &7326670630385195572
 GameObject:
   m_ObjectHideFlags: 0

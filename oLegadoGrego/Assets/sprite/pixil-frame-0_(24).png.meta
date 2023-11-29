@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 126bf38b73ba7684a8ff2456968a9e08
+guid: 762a1f3a36660fc4290e73531b404af6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: templo frente_0
+      name: pixil-frame-0_(24)_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 10
-        width: 208
-        height: 132
+        x: 377
+        y: 286
+        width: 832
+        height: 962
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6199fa2b50bb4e148a96a67216237455
-      internalID: -1198262550
+      spriteID: 8383ec91904d9114e96634e6cec5b6a4
+      internalID: 948193227
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      templo frente_0: -1198262550
+      pixil-frame-0_(24)_0: 948193227
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
