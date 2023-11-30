@@ -8,9 +8,9 @@ public class InimgoiA : MonoBehaviour
     public float moveSpeed = 5f;
     public float attackRange = 1.3f;
     public float attackRate = 2f;
-
+    public int damageAmount = (int)50f; // Adicionei uma variável para o dano
     private float nextAttackTime = 0f;
-
+    public Transform attackPoint;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
 
@@ -74,18 +74,40 @@ public class InimgoiA : MonoBehaviour
         if (distanceToTarget < attackRange)
         {
             // Inicia a animação de ataque
-            animator.SetBool("attack",true);
+            animator.SetBool("attack", true);
             Debug.Log("Atacando!");
 
-            // Adicione aqui a lógica específica do ataque
-            // Por exemplo, você pode aplicar dano ao jogador aqui
+            // Adiciona lógica de dano
+            DealDamage();
         }
         else
         {
             // Inicia a animação de parado, já que não está perto o suficiente para atacar
             animator.SetBool("walk ini", false);
             animator.SetBool("attack", false);
-            Debug.Log("Parado, não está perto o suficiente para atacar.");
+        }
+
+        void DealDamage()
+        {
+            // Certifique-se de que o alvo tem o script Enemy associado
+            Enemy enemy = target.GetComponent<Enemy>();
+
+            if (enemy != null)
+            {
+                // Chama a função TakeDamage do script Enemy para aplicar dano
+                enemy.TakeDamage(damageAmount); // Altere o valor conforme necessário
+            }
+        }
+
+        // Função chamada no Editor Unity para visualização dos Gizmos
+        void OnDrawGizmos()
+        {
+            if (attackPoint == null )
+                return;
+            Gizmos.color = Color.red; // Cor dos Gizmos (pode ajustar conforme desejado)
+
+            // Desenha uma esfera representando o alcance de ataque
+            Gizmos.DrawWireSphere(attackPoint.position, attackRange);
         }
     }
 }
